@@ -1,0 +1,69 @@
+.our-history-container{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.our-history-container h3{
+    color: #243584;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+}
+.our-history{
+    margin-top: 90px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 827px;
+    height: 140px;
+    border-bottom: 2px solid #111;
+    gap: 135px;
+}
+.our-history h6{
+    color: #243584;
+    font-size: 18px;
+    line-height: 50.97px;
+    font-weight: 500;
+}
+.our-history p{
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.our-history-content{
+    border-left: 4px solid #e7151a;
+    padding-left: 30px;
+    height: 100%;
+}
+.our-history-bottom{
+    display: flex;
+    gap: 115px;
+    margin-left: 163px;
+}
+.our-history-bottom h6{
+    color: #243584;
+    font-size: 18px;
+    line-height: 50.97px;
+    font-weight: 500;
+}
+.our-history-bottom p{
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.our-history-bottom-content{
+    border-left: 4px solid #243584;
+    padding-top: 20px;
+    padding-left: 30px;
+    height: 100%;
+}
+.our-history-bottom-content-b{
+    border-left: 4px solid #e7151a;
+    padding-top: 20px;
+    padding-left: 30px;
+    height: 100%;
+}

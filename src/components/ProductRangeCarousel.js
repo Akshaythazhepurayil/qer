@@ -14,20 +14,25 @@ import compactor from "../assets/images/png/compactor.png";
 import excavator from "../assets/images/png/excavator.png";
 import mini_truck from "../assets/images/png/mini_truck.png";
 import backhoe_loader from "../assets/images/png/backhoe_loader.png";
+// import left_button from "../assets/images/png/left_button.png";
+// import right_button from "../assets/images/png/right_button.png";
 
 import React from "react";
 import ProductRangeCard from "./ProductRangeCard";
 
-const ProductRangeCarousel = ({ image, title }) => {
+const ProductRangeCarousel = ({idPrev, idNext }) => {
   return (
     <Swiper
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={29}
-      slidesPerView={2}
-      // navigation
+      slidesPerView={6}
+      navigation= {{
+        nextEl: ".next",
+        prevEl: ".prev",
+      }}
       autoplay={{
-        delay: 3500,
+        delay: 2500,
         disableOnInteraction: false,
       }}
       onSwiper={(swiper) => console.log(swiper)}
@@ -50,6 +55,21 @@ const ProductRangeCarousel = ({ image, title }) => {
       </SwiperSlide>
       <SwiperSlide className="slide">
         <ProductRangeCard image={generator} title="Generator" />
+      </SwiperSlide>
+      <SwiperSlide className="slide">
+        <ProductRangeCard image={motor_grader} title="Motor Graders" />
+      </SwiperSlide>
+      <SwiperSlide className="slide">
+        <ProductRangeCard image={motor_grader} title="Motor Graders" />
+      </SwiperSlide>
+      <SwiperSlide className="slide">
+        <ProductRangeCard image={backhoe_loader} title="Backhoe Loaders" />
+      </SwiperSlide>
+      <SwiperSlide className="slide">
+        <ProductRangeCard image={excavator} title="Excavators" />
+      </SwiperSlide>
+      <SwiperSlide className="slide">
+        <ProductRangeCard image={compactor} title="Compactors" />
       </SwiperSlide>
       <SwiperSlide className="slide">
         <ProductRangeCard image={motor_grader} title="Motor Graders" />

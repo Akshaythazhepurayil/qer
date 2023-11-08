@@ -24,7 +24,10 @@ const PartnersCarousel = () => {
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={1}
       slidesPerView={8}
-      // navigation
+      navigation= {{
+        nextEl: ".btn-right",
+        prevEl: ".btn-left",
+      }}
       autoplay={{
         delay: 2500,
         disableOnInteraction: false,
@@ -78,6 +81,18 @@ const PartnersCarousel = () => {
       </SwiperSlide>
       <SwiperSlide className="carouselcard">
       <BrandLogoCard brandLogo={komatsu} />
+      </SwiperSlide>
+      <SwiperSlide className="">
+      <BrandLogoCard brandLogo={jcb_logo} />
+      </SwiperSlide>
+      <SwiperSlide className="">
+      <BrandLogoCard brandLogo={jcb_logo} />
+      </SwiperSlide>
+      <SwiperSlide className="">
+      <BrandLogoCard brandLogo={jcb_logo} />
+      </SwiperSlide>
+      <SwiperSlide className="">
+      <BrandLogoCard brandLogo={jcb_logo} />
       </SwiperSlide>
       <SwiperSlide className="">
       <BrandLogoCard brandLogo={jcb_logo} />

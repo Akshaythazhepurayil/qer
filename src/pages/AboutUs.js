@@ -14,7 +14,7 @@ const AboutUs = () => {
       <Navbar path="/about-us" navTextOne="ABOUT US" pathProducts="/products-for-rent" navTexTwo="PRODUCTS" navTexThree="MEDIA CENTERE" pathContact="/contact-us" navTextFour="CONTACT US"/>
       <PageHeader headText="About" subText="About" headerImage={abot_bg_img}/>
       <AboutInnerNav />
-      <div className="" style={{marginTop:"200px"}}>
+      <div className="about-footer">
       <Footer />
       </div>
     </div>

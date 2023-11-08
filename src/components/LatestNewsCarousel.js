@@ -27,11 +27,14 @@ const LatestNewsCarousel = () => {
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       spaceBetween={30}
       slidesPerView={1}
-      // navigation
-      autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
+      navigation= {{
+        nextEl: ".next-btn",
+        prevEl: ".prev-btn",
       }}
+      // autoplay={{
+      //   delay: 2500,
+      //   disableOnInteraction: false,
+      // }}
       breakpoints={{
         640: {
           slidesPerView: 1,
@@ -87,6 +90,24 @@ const LatestNewsCarousel = () => {
           image={card_four_img}
           head="15th DEC, 2021"
           subHead="7 machinery insights from  XtremeAg farmers"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <LatestNewsCard
+          tag="PROMOTIONS"
+          bg="#f99c2e"
+          image={card_one_img}
+          head="15th DEC, 2021"
+          subHead="Heavy Equipment Manufacturers Try to Lure"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <LatestNewsCard
+          tag="PROMOTIONS"
+          bg="#f99c2e"
+          image={card_one_img}
+          head="15th DEC, 2021"
+          subHead="Heavy Equipment Manufacturers Try to Lure"
         />
       </SwiperSlide>
       <SwiperSlide>

@@ -26,7 +26,7 @@
   margin: 15px 0px;
 }
 .carousel {
-  width: 100%;
+  width: 90%;
   height: 250px;
   position: absolute;
   top: 170px;
@@ -44,6 +44,31 @@
   position: absolute;
   right: 200px;
   top: 50px;
+}
+.product-range-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.prev{
+  color: #e7151a;
+  background-color: #eeeeee;
+  font-size: 30px;
+  /* padding: 10px 20px; */
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  border: 1px solid #d2d2d2;
+}
+.next{
+  color: #e7151a;
+  background-color: #eeeeee;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  border: 1px solid #d2d2d2;
 }
 @media only screen and (max-width: 1024px) {
   .product-range {
@@ -136,7 +161,7 @@
     margin: 44px 0;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .product-range {
     background-color: #e7151a;
     padding: 20px;
@@ -160,5 +185,13 @@
     justify-content: flex-start;
     padding: 0px 20px;
     margin: 44px 0;
+  }
+  .product-range-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+    width: 30px;
   }
 }
