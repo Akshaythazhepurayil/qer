@@ -1,0 +1,11 @@
+
+.logo-card{
+    border: 0.5px solid rgb(212, 212, 212);
+    background-color: #ffff;
+    width: 265px;
+    height: 163px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 60px;
+}

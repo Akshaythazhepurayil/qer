@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'helveticaregular';
+  src: url('../public/fonts/helvatica/helvetica-webfont.eot');
+  src: url('../public/fonts/helvatica/helvetica-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../public/fonts/helvatica/helvetica-webfont.woff2') format('woff2'),
+       url('../public/fonts/helvatica/helvetica-webfont.woff') format('woff'),
+       url('../public/fonts/helvatica/helvetica-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

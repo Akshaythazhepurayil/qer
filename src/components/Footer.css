@@ -1,0 +1,107 @@
+.footer-container{
+    background-color: #181565;
+    padding-top: 90px;
+    padding-right: 200px;
+    padding-bottom: 142px;
+    padding-left: 200px;
+
+}
+.footer-sections{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-section-one h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    color: white;
+    padding-bottom: 35px;
+}
+.footer-section-one h4{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 40px;
+    color: white;
+    padding-bottom: 35px;
+}
+.find{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    background-color: #22327e;
+    border-radius: 30px;
+}
+.find input{
+    border: none;
+    outline: none;
+    background-color: #22327e;
+    border-radius: 30px;
+    padding: 0 30px;
+    font-size: 13px;
+    width: 245px;
+}
+.find a{
+    background-color: #e02727;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    width: 50px;
+}
+.content p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.quick-links{
+    color: #fff;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+.content_section{
+    margin-top: 80px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.footer-bottom-section{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-wrap: wrap;
+}
+.footer-bottom-section p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.social-media-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+@media only screen and (max-width : 1024px){
+    .footer-container{
+        padding: 50px;
+    
+    }
+}
+@media only screen and (max-width : 600px){
+    .footer-container{
+        padding: 50px;
+    
+    }
+}

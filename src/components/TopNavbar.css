@@ -1,0 +1,75 @@
+.top-nav-container{
+    background-color: #243584;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 17px 200px;
+}
+.top-nav-container a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.top-nav-container span{
+    text-decoration: underline;
+}
+.top-nav-right-side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 13px;
+}
+.language-field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.language-field p{
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.language-field span{
+    width: 8px;
+}
+.cart-icon{
+    border-right: 1px solid #505d9d;
+    border-left: 1px solid #505d9d;
+    padding: 0 8px;
+}
+.watsap-icon{
+    width: 30px;
+}
+@media only screen and (max-width: 1024px){
+    .top-nav-container{
+        padding: 15px 50px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .top-nav-container{
+        background-color: #243584;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        padding: 15px 50px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .top-nav-container{
+        background-color: #243584;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        padding: 10px 20px;
+    }
+}
