@@ -1,6 +1,6 @@
 
 .logo-card{
-    border: 0.5px solid rgb(212, 212, 212);
+    border: 0.5px solid #d8d8d8;
     background-color: #ffff;
     width: 265px;
     height: 163px;
@@ -8,4 +8,11 @@
     align-items: center;
     justify-content: center;
     padding: 70px 60px;
+}
+@media only screen and (max-width:600px) {
+    .logo-card{
+        width: 186px;
+        height: 100px;
+        padding: 29px 14px;
+    }
 }

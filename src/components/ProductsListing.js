@@ -19,7 +19,7 @@ const ProductsListing = ({ headText, subHead }) => {
       <div className="product-listing">
         <h4>{headText}</h4>
         <div className="products-button">
-          <BlackButton title="View All Products" />
+          <BlackButton path="/products-for-rent" title="View All Products" />
         </div>
       </div>
       <div className="products-list">

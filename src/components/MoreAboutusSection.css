@@ -75,52 +75,38 @@
 @media only screen and (max-width : 1024px){
     .more-about-content{
         padding: 20px 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        justify-content: flex-start;
     }
     .counter-section{
-        background-color: white;
         height: 150px;
         width: 435px;
-        position: absolute;
         left: 102px;
         bottom: -13px;
-        display: flex;
         gap: 50px;
-        align-items: center;
     }
     .counter h2{
-        color: #e7151a;
         font-weight: 700;
         font-size: 45px;
     }
     .counter p{
-        color: #000;
         font-size: 14px;
         line-height: 45px;
         font-weight: 600;
     }
     .experiens h2{
-        color: #e7151a;
         font-weight: 700;
         font-size: 45px;
     }
     .experiens p{
-        color: #000;
         font-size: 14px;
         line-height: 45px;
         font-weight: 600;
     }
     .more-about-content h3{
         width: 805px;
-        color: #253485;
         font-size: 30px;
         line-height: 40px;
         font-weight: 700;
         letter-spacing: -1px;
-        text-align: left;
         padding-bottom: 33px;
         
         text-wrap: wrap;
@@ -134,56 +120,38 @@
     }
 }
 @media only screen and (max-width : 820px){
-    .more-about-content{
-        padding: 20px 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        justify-content: flex-start;
-    }
     .counter-section{
-        background-color: white;
         height: 150px;
         width: 435px;
-        position: absolute;
         left: 35px;
         bottom: -13px;
-        display: flex;
         gap: 50px;
-        align-items: center;
     }
     .counter h2{
-        color: #e7151a;
         font-weight: 700;
         font-size: 45px;
     }
     .counter p{
-        color: #000;
         font-size: 14px;
         line-height: 45px;
         font-weight: 600;
     }
     .experiens h2{
-        color: #e7151a;
         font-weight: 700;
         font-size: 45px;
     }
     .experiens p{
-        color: #000;
         font-size: 14px;
         line-height: 45px;
         font-weight: 600;
     }
     .more-about-content h3{
         width: 735px;
-        color: #253485;
         font-size: 30px;
         line-height: 40px;
         font-weight: 700;
         letter-spacing: -1px;
-        text-align: left;
         padding-bottom: 33px;
-        
         text-wrap: wrap;
     }
     .more-about-img{
@@ -203,7 +171,6 @@
         justify-content: flex-start;
     }
     .counter-section{
-        background-color: white;
         height: 135px;
         width: 400px;
         position: absolute;
@@ -214,18 +181,15 @@
         align-items: center;
     }
     .counter h2{
-        color: #e7151a;
         font-weight: 700;
         font-size: 45px;
     }
     .counter p{
-        color: #000;
         font-size: 14px;
         line-height: 45px;
         font-weight: 600;
     }
     .experiens h2{
-        color: #e7151a;
         font-weight: 700;
         font-size: 45px;
     }
@@ -237,15 +201,11 @@
     }
     .more-about-content h3{
         width: 650px;
-        color: #253485;
         font-size: 30px;
         line-height: 40px;
         font-weight: 700;
         letter-spacing: -1px;
-        text-align: left;
         padding-bottom: 33px;
-        
-        text-wrap: wrap;
     }
     .more-about-img{
         padding-bottom: 65px;
@@ -258,22 +218,16 @@
 @media only screen and (max-width : 600px){
     .more-about-content{
         padding: 20px 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
     }
     .more-about-content h3{
+        padding: 20px 20px;
         width: 375px;
-        color: #253485;
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 28px;
+        line-height: 35px;
         font-weight: 700;
         letter-spacing: -1px;
-        text-align: center;
         padding-bottom: 33px;
-        
-        text-wrap: wrap;
+        text-align: center;
     }
     .more-about-img{
         padding-bottom: 65px;
@@ -283,36 +237,32 @@
         display: none;
     }
     .counter-section{
-        background-color: white;
-        height: 120px;
-        width: 275px;
-        position: absolute;
+        height: 100px;
+        width: 265px;
         left: 18px;
-        bottom: -13px;
-        display: flex;
-        gap: 15px;
-        align-items: center;
+        bottom: -15px;
+        gap: 40px;
     }
     .counter h2{
-        color: #e7151a;
         font-weight: 700;
         font-size: 30px;
+        line-height: 30px;
     }
     .counter p{
-        color: #000;
         font-size: 12px;
-        /* line-height: 45px; */
         font-weight: 600;
+        line-height: 20px;
+        width: 100px;
     }
     .experiens h2{
-        color: #e7151a;
         font-weight: 700;
         font-size: 30px;
+        line-height: 30px;
     }
     .experiens p{
-        color: #000;
         font-size: 12px;
-        /* line-height: 45px; */
         font-weight: 600;
+        line-height: 30px;
+        width: 100px;
     }
 }

@@ -99,4 +99,7 @@
     align-items: center;
     gap: 50px;
     }
+    .header-carousel{
+      display: none;
+    }
   }

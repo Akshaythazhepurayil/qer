@@ -12,7 +12,7 @@ const AirSystems = ({ headText }) => {
       <div className="air-systems">
         <h4>{headText}</h4>
         <div className="air-systems-button">
-          <BlackButton title="View All Products" />
+          <BlackButton path="/products-for-rent" title="View All Products" />
         </div>
         <div className="air-systems-list">
           <ProductsListCard

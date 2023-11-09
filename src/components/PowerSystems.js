@@ -12,7 +12,7 @@ const PowerSystems = ({headText}) => {
     <div className="power-systems">
       <h4>{headText}</h4>
       <div className="power-systems-button">
-      <BlackButton title="View All Products"/>
+      <BlackButton path="/products-for-rent" title="View All Products"/>
       </div>
       <div className="power-systems-list">
       <ProductsListCard image={diesel_generators} title="Diesel Generators" />

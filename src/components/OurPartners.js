@@ -23,19 +23,13 @@ const OurPartners = () => {
               <img src={left_blue_arrow} alt="" />
             </button>
             <button className="btn-right">
-            <img src={right_blue_arrow} alt="" />
+              <img src={right_blue_arrow} alt="" />
             </button>
           </div>
         </div>
       </div>
       <div className="brand-logo-cards">
         <PartnersCarousel />
-        {/* 
-        <BrandLogoCard  />
-        <BrandLogoCard  />
-        <BrandLogoCard  />
-        <BrandLogoCard  />
-        <BrandLogoCard  /> */}
       </div>
     </div>
   );

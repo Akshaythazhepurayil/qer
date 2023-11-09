@@ -26,8 +26,6 @@ const MoreAboutusSection = () => {
         </div>
       </div>
     <div className="about-us-side-line">
-      {/* <p>ABOUT US .</p>
-      <div className="line"></div> */}
       <img src={vertical_line} alt="" />
     </div>
     </div>

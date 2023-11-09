@@ -1,13 +1,13 @@
-.latest-news-button{
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    gap: 15px !important;
+.latest-news-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
-@media only screen and (max-width : 600px){
-    .latest-news-button{
-        gap: 10px;
-        margin-top: 60px;
-        width: 30px;
-    }
+@media only screen and (max-width: 600px) {
+  .latest-news-button {
+    gap: 10px;
+    width: 30px;
+    margin-right: 20px;
+  }
 }

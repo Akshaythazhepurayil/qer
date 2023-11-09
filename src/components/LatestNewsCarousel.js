@@ -31,10 +31,6 @@ const LatestNewsCarousel = () => {
         nextEl: ".next-btn",
         prevEl: ".prev-btn",
       }}
-      // autoplay={{
-      //   delay: 2500,
-      //   disableOnInteraction: false,
-      // }}
       breakpoints={{
         640: {
           slidesPerView: 1,

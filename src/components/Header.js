@@ -26,7 +26,7 @@ const Header = () => {
         onSlideChange={() => console.log("slide change")}
         direction="vertical"
       >
-        <SwiperSlide>
+        <SwiperSlide className="header-carousel">
           <div className="slider-one">
             <div>
               <h1 className="">
@@ -52,9 +52,9 @@ const Header = () => {
             </button>
           </div>
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide className="header-carousel">Slide 2</SwiperSlide>
+        <SwiperSlide className="header-carousel">Slide 3</SwiperSlide>
+        <SwiperSlide className="header-carousel">Slide 4</SwiperSlide>
       </Swiper>
     </>
   );

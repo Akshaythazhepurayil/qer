@@ -45,17 +45,21 @@
     .slide{
         background-color: #ffff !important;
         border-radius: 10px !important;
-        width: 260px !important;
-        height: 221px !important;
     }
     .product-img{
-        margin-top: 8px;
-        width: 240px;
-        background-color: #f4f4f4;
-        padding-top: 30px;
-        padding-right: 40px;
-        padding-bottom: 30px;
-        padding-left: 40px;
+        width: 150px;
+    }
+    .slide{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .vehicle-name{
+        width: 100px;
+        height: 60px;
         border-radius: 10px;
+        margin-top: 10px;
+    }
+    .vehicle-name span{
+        font-size: 14px;
     }
 }

@@ -34,12 +34,12 @@ const PartnersCarousel = () => {
       }}
       breakpoints={{
         375: {
-          slidesPerView: 1,
-          spaceBetween: 20,
+          slidesPerView: 2,
+          spaceBetween: 1,
         },
         640: {
-          slidesPerView: 5,
-          spaceBetween: 20,
+          slidesPerView: 2,
+          spaceBetween: 1,
         },
         768: {
           slidesPerView: 4,
@@ -61,40 +61,40 @@ const PartnersCarousel = () => {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
     >
-      <SwiperSlide className="">
+      <SwiperSlide className="brand-logo-slide">
       <BrandLogoCard brandLogo={komatsu} />
       </SwiperSlide>
-      <SwiperSlide className="">
+      <SwiperSlide className="brand-logo-slide">
       <BrandLogoCard brandLogo={caterpiller} />
       </SwiperSlide>
-      <SwiperSlide className="">
+      <SwiperSlide className="brand-logo-slide">
       <BrandLogoCard brandLogo={volvo} />
       </SwiperSlide>
-      <SwiperSlide className="">
+      <SwiperSlide className="brand-logo-slide">
       <BrandLogoCard brandLogo={jcb_logo} />
       </SwiperSlide>
-      <SwiperSlide className="">
+      <SwiperSlide className="brand-logo-slide">
       <BrandLogoCard brandLogo={jlg_logo} />
       </SwiperSlide>
-      <SwiperSlide className="">
+      <SwiperSlide className="brand-logo-slide">
       <BrandLogoCard brandLogo={atlas_copco_logo} />                  
       </SwiperSlide>
-      <SwiperSlide className="carouselcard">
+      <SwiperSlide className="brand-logo-slide">
       <BrandLogoCard brandLogo={komatsu} />
       </SwiperSlide>
-      <SwiperSlide className="">
+      <SwiperSlide className="brand-logo-slide">
       <BrandLogoCard brandLogo={jcb_logo} />
       </SwiperSlide>
-      <SwiperSlide className="">
+      <SwiperSlide className="brand-logo-slide">
       <BrandLogoCard brandLogo={jcb_logo} />
       </SwiperSlide>
-      <SwiperSlide className="">
+      <SwiperSlide className="brand-logo-slide">
       <BrandLogoCard brandLogo={jcb_logo} />
       </SwiperSlide>
-      <SwiperSlide className="">
+      <SwiperSlide className="brand-logo-slide">
       <BrandLogoCard brandLogo={jcb_logo} />
       </SwiperSlide>
-      <SwiperSlide className="">
+      <SwiperSlide className="brand-logo-slide">
       <BrandLogoCard brandLogo={jcb_logo} />
       </SwiperSlide>
     </Swiper>

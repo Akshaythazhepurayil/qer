@@ -14,7 +14,7 @@ const LiftingEquipments = ({headText}) => {
       <div className="lifting-equipments">
         <h4>{headText}</h4>
         <div className="lifting-equipments-button">
-          <BlackButton title="View All Products" />
+          <BlackButton path="/products-for-rent" title="View All Products" />
         </div>
         <div className="lifting-equipments-list">
           <ProductsListCard
