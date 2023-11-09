@@ -8,8 +8,8 @@ import ProductRange from "../components/ProductRange";
 import LatestNews from "../components/LatestNews";
 import OurPartners from "../components/OurPartners";
 import Footer from "../components/Footer";
-import { Helmet } from 'react-helmet';
-import "./Home.css"
+import { Helmet } from "react-helmet";
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -19,17 +19,25 @@ const Home = () => {
         <meta name="description" content="This is a description of my page" />
       </Helmet>
       <TopNavbar />
-      <Navbar path="/about-us" navTextOne="ABOUT US" pathProducts="/products-for-rent" navTexTwo="PRODUCTS" navTexThree="MEDIA CENTERE" pathContact="/contact-us" navTextFour="CONTACT US"/>
+      <Navbar
+        path="/about-us"
+        navTextOne="ABOUT US"
+        pathProducts="/products-for-rent"
+        navTexTwo="PRODUCTS"
+        navTexThree="MEDIA CENTERE"
+        pathContact="/contact-us"
+        navTextFour="CONTACT US"
+      />
       <div className="header-container">
-      <Header />
+        <Header />
       </div>
       <div className="">
-      <MoreAboutusSection />
-      <MoreAboutButton />
-      <ProductRange />
-      <LatestNews />
-      <OurPartners />
-      <Footer />
+        <MoreAboutusSection />
+        <MoreAboutButton />
+        <ProductRange />
+        <LatestNews />
+        <OurPartners />
+        <Footer />
       </div>
     </div>
   );

@@ -1,48 +1,111 @@
 .capabilities-container {
-    background-image: url("../assets/images/jpg/capabilities_bg.jpg");
+  background-image: url("../assets/images/jpg/capabilities_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 477px;
+  margin-top: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.capabilities {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1118px;
+  gap: 84px;
+}
+.capabilities-left {
+  width: 473px;
+}
+.capabilities-left h2 {
+  color: #fff;
+  font-size: 77.88px;
+  line-height: 72px;
+  letter-spacing: -25;
+  font-weight: 400;
+  border-bottom: 2px solid #fff;
+}
+.capabilities-left p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.capabilities-right-content {
+  margin-top: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 28px;
+}
+.capabilities-right-content p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 1024px) {
+  .capabilities-container {
+    background-image: url("../assets/images/jpg/capabilities_tab_bg.jpg");
+    background-color: #243584;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 477px;
-    margin-top: 88px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
   }
   .capabilities {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 1118px;
-    gap: 84px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
   }
-  .capabilities-left {
-    width: 473px;
+}
+@media only screen and (max-width: 820px) {
+  .capabilities-container {
+    background-image: url("../assets/images/jpg/capabilities_tab_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 40px;
+  }
+  .capabilities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
   }
   .capabilities-left h2 {
     color: #fff;
-    font-size: 77.88px;
-    line-height: 72px;
-    letter-spacing: -25;
-    font-weight: 400;
-    border-bottom: 2px solid #fff;
+    font-size: 60px;
   }
-  .capabilities-left p {
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    margin-top: 40px;
+}
+@media only screen and (max-width: 600px) {
+  .capabilities-container {
+    background-image: url("../assets/images/jpg/capabilities_tab_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: 30px;
   }
-  .capabilities-right-content {
-    margin-top: 17px;
+  .capabilities {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    gap: 28px;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    gap: 30px;
   }
-  .capabilities-right-content p {
+  .capabilities-left{
+    width: 100%;
+  }
+  .capabilities-left h2 {
     color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
+    font-size: 40px;
   }
+}

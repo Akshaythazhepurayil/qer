@@ -97,9 +97,34 @@
       flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     }
     .header-carousel{
       display: none;
     }
+    .slider-one h1{
+      color: #fc4236;
+      font-weight: 700;
+      font-size: 38px;
+      width: 100%;
+      text-align: left ;
+      line-height: 38px;
+      margin-bottom: 0px;
+      position: relative;
+      margin-top: 50px;
+    }
+    .categories{
+      display: none;
+    }
+    .next-button-carousel{
+      width: 35px;
+      min-height: 35px;
+      bottom: 100px;
+      right: 30px;
+  }
+  .header-carousel{
+    height: 500px !important;
+    margin-bottom: 0px !important;
+    /* background-color: yellow; */
+  }
   }

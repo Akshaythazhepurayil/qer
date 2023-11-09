@@ -99,6 +99,9 @@
   .vision-card {
     margin-left: 300px;
   }
+  .core-value-container {
+    margin-top: 50px;
+  }
 }
 @media only screen and (max-width: 820px) {
   .about-nav-container {
@@ -119,8 +122,11 @@
   .vision-card {
     margin-left: 200px;
   }
+  .core-value-items{
+    gap: 30px;
+  }
 }
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 768px) {
   .about-nav-container {
     margin-top: 50px;
     padding-left: 12px;
@@ -137,6 +143,9 @@
   .nav-list-item {
     font-size: 13px;
     font-weight: 500;
+  }
+  .core-value-container {
+    margin-top: 60px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -163,5 +172,18 @@
   }
   .vision-card {
     margin-left: 10px;
+  }
+  .core-value-container {
+    margin-top: 30px;
+  }
+  .core-value-items{
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 20px;
+  }
+  .core-value-container h3 {
+    font-size: 60px;
+    line-height: 45px;
+    font-weight: 700;
   }
 }

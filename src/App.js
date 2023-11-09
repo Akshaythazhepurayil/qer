@@ -1,10 +1,9 @@
-// import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ProductsForRent from "./pages/ProductsForRent";
 import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs";
-// import './App.css';
+import ProductDetails from "./pages/ProductDetails";
 
 function App() {
   return (
@@ -16,6 +15,7 @@ function App() {
           <Route path="products-for-rent" element={<ProductsForRent />} />
           <Route path="contact-us" element={<ContactUs />} />
           <Route path="about-us" element={<AboutUs />} />
+          <Route path="product-details" element={<ProductDetails />} />
         </Route>
       </Routes>
     </BrowserRouter>

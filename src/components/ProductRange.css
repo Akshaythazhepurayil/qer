@@ -176,4 +176,10 @@
     margin-top: 60px;
     width: 30px;
   }
+  .product-range h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+  }
 }

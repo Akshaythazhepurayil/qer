@@ -21,6 +21,9 @@ const Header = () => {
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={50}
         slidesPerView={1}
+        navigation= {{
+          nextEl: ".next-button-carousel",
+        }}
         pagination={{ clickable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
@@ -37,7 +40,7 @@ const Header = () => {
                 <div className="categories_img">
                   <img src={categories_img} alt="" />
                 </div>
-                <a href="/" className="categories-button">
+                <a href="/products-for-rent" className="categories-button">
                   <img src={rightArrow} alt="" />
                 </a>
               </div>

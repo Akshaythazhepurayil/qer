@@ -1,7 +1,6 @@
 .product-listing-container{
     position: relative;
-    margin-top: 94px;
-    
+    margin-top: 94px; 
 }
 .product-listing{
     background-color: #e7151a;
@@ -87,12 +86,15 @@
     }
 }
 @media only screen and (max-width:600px){
+    .product-listing-container{
+        margin-top: 30px; 
+    }
     .product-listing{
         padding: 20px;
     }
     .products-list{
         margin-top: 80px;
-        left: 28px;
+        left: 20px;
     }
     .products-button{
         right: 60px;

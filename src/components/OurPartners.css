@@ -56,10 +56,16 @@
     border-right: 1px solid #e5e5e5;
     padding-right: 20px;
 }
+.btn-left img{
+    width: 100%;
+}
 .btn-right{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.btn-right img{
+    width: 100%;
 }
 @media only screen and (max-width : 1024px){
     .partners-head{
@@ -106,5 +112,12 @@
     }
     .brand-logo-cards{
         margin-top: 20px;
+    }
+    .carousel-btn{
+        height: 30px;
+        width: 90px;
+        gap: 20px;
+        border: 1px solid #e5e5e5;
+        border-radius: 30px;
     }
 }

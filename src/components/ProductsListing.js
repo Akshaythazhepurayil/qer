@@ -23,21 +23,66 @@ const ProductsListing = ({ headText, subHead }) => {
         </div>
       </div>
       <div className="products-list">
-        <ProductsListCard image={excavator_two_img} title="Excavators" />
-        <ProductsListCard image={dozers_img} title="Dozers" />
         <ProductsListCard
+          path="/product-details"
+          image={excavator_two_img}
+          title="Excavators"
+        />
+        <ProductsListCard
+          path="/product-details"
+          image={dozers_img}
+          title="Dozers"
+        />
+        <ProductsListCard
+          path="/product-details"
           image={articulated_trucks}
           title="Articulated Trucks"
         />
-        <ProductsListCard image={mining_truck_two} title="Mining Trucks" />
-        <ProductsListCard image={skid_steers} title="Skid Steers" />
-        <ProductsListCard image={motor_grader_two} title="Motor Graders" />
-        <ProductsListCard image={wheel_loaders} title="Wheel Loaders" />
-        <ProductsListCard image={compactor_two} title="Compactors" />
-        <ProductsListCard image={backhoe_loader_two} title="Backhoe Loaders" />
-        <ProductsListCard image={road_pavers} title="Road Pavers" />
-        <ProductsListCard image={skid_steers} title="Skid Steers" />
-        <ProductsListCard image={mining_truck_two} title="Mining Trucks" />
+        <ProductsListCard
+          path="/product-details"
+          image={mining_truck_two}
+          title="Mining Trucks"
+        />
+        <ProductsListCard
+          path="/product-details"
+          image={skid_steers}
+          title="Skid Steers"
+        />
+        <ProductsListCard
+          path="/product-details"
+          image={motor_grader_two}
+          title="Motor Graders"
+        />
+        <ProductsListCard
+          path="/product-details"
+          image={wheel_loaders}
+          title="Wheel Loaders"
+        />
+        <ProductsListCard
+          path="/product-details"
+          image={compactor_two}
+          title="Compactors"
+        />
+        <ProductsListCard
+          path="/product-details"
+          image={backhoe_loader_two}
+          title="Backhoe Loaders"
+        />
+        <ProductsListCard
+          path="/product-details"
+          image={road_pavers}
+          title="Road Pavers"
+        />
+        <ProductsListCard
+          path="/product-details"
+          image={skid_steers}
+          title="Skid Steers"
+        />
+        <ProductsListCard
+          path="/product-details"
+          image={mining_truck_two}
+          title="Mining Trucks"
+        />
       </div>
     </div>
   );

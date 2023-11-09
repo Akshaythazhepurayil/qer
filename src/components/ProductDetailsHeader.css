@@ -1,0 +1,20 @@
+.product-details-header-container{
+    margin-top: 113px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-header-details{
+    width: 800px;
+}
+.product-header-details h1{
+    font-size: 36.13px;
+    line-height: 36px;
+    font-weight: 700;
+    color: var(--lightNavy);
+}
+.product-header-details p{
+    color: var(--black);
+    font-size: 16px;
+    line-height: 24px;
+}

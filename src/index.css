@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  --lightNavy:#243584;
+  --black:#0000;
+}
+
 *{
   margin: 0;
   padding: 0;
