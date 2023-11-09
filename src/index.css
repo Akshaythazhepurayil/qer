@@ -4,7 +4,9 @@
 
 :root{
   --lightNavy:#243584;
-  --black:#0000;
+  --black:#000;
+  --porcelain:#f2f2f2;
+  --mercury:#e8e8e8;
 }
 
 *{
