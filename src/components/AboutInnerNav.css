@@ -11,7 +11,7 @@
   gap: 50px;
 }
 .nav-list-item {
-  color: #000;
+  color: var(--black);
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 25;
@@ -19,8 +19,8 @@
 }
 .nav-list-item:hover,
 .active {
-  color: #e7151a;
-  border-bottom: 1px solid #e7151a;
+  color: var(--lavaRed);
+  border-bottom: 1px solid var(--lavaRed);
   padding-bottom: 17px;
 }
 .who-we-are-text {
@@ -39,7 +39,7 @@
 }
 .who-we-are-text p {
   width: 1049px;
-  color: #000;
+  color: var(--black);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -55,7 +55,7 @@
   justify-content: center;
 }
 .core-value-container h3 {
-  color: #e7151a;
+  color: var(--lavaRed);
   font-size: 77px;
   line-height: 45px;
   font-weight: 700;
@@ -72,7 +72,7 @@
   font-size: 18px;
   line-height: 50.97px;
   font-weight: 500;
-  border-bottom: 1px solid #e7151a;
+  border-bottom: 1px solid var(--lavaRed);
   padding: 5px 30px;
 }
 .core-value-border-style {

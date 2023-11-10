@@ -3,6 +3,10 @@ import TopNavbar from '../components/TopNavbar'
 import Navbar from '../components/Navbar'
 import ProductDetailsHeader from '../components/ProductDetailsHeader'
 import "./ProductDetails.css"
+import Footer from '../components/Footer'
+import DescriptionSection from '../components/DescriptionSection'
+import RelatedSection from '../components/RelatedSection'
+import RelatedProducts from '../components/RelatedProducts'
 
 const ProductDetails = () => {
   return (
@@ -19,7 +23,12 @@ const ProductDetails = () => {
       />
       <div className='product-details-container'>
         <ProductDetailsHeader />
+        <DescriptionSection />
+        <RelatedSection />
+        <RelatedProducts />
       </div>
+      
+      <Footer />
     </div>
   )
 }

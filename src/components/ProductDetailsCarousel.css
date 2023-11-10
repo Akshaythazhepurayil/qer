@@ -1,0 +1,14 @@
+.product-details-carousel{
+    width: 587px ;
+    height: 534px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-details-img{
+    width: 506px !important;
+    background-color: transparent;
+    height: 321px !important;
+    margin-top: 0px !important;
+    padding: 0px !important;
+}

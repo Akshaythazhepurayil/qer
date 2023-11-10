@@ -1,0 +1,9 @@
+.related-product-slide{
+    background-color: #ffff !important;
+    border-radius: 10px;
+    width: 300px !important;
+    height: 296px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19) !important;
+    padding-bottom: 296px !important;
+    /* width: 100% !important; */
+}

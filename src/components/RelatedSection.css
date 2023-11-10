@@ -1,0 +1,32 @@
+.related-section-container {
+  margin-top: 50px;
+  
+}
+.related-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.related-section-head {
+  color: var(--lightNavy);
+  font-size: 36.13px;
+  line-height: 45px;
+  font-weight: 400;
+}
+.related-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.related-carousel-section{
+    margin-top: 60px;
+    height: 350px;
+}
+@media only screen and (max-width: 600px) {
+  .related-button {
+    gap: 10px;
+    margin-top: 60px;
+    width: 30px;
+  }
+}

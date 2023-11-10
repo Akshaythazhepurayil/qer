@@ -1,0 +1,33 @@
+.related-products-container {
+    margin-top: 50px;
+    
+  }
+  .related-products-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .related-products-head {
+    color: var(--lightNavy);
+    font-size: 36.13px;
+    line-height: 45px;
+    font-weight: 400;
+  }
+  .related-products-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .related-products-carousel-section{
+      margin-top: 60px;
+      height: 350px;
+  }
+  @media only screen and (max-width: 600px) {
+    .related-products-button {
+      gap: 10px;
+      margin-top: 60px;
+      width: 30px;
+    }
+  }
+  

@@ -1,102 +1,79 @@
-import React, {useState} from 'react'
-import "./ProductDetailsCarousel"
+import React from 'react'
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import "./ProductDetailsCarousel.css";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import 'swiper/css';
-import 'swiper/css/free-mode';
-import 'swiper/css/navigation';
-import 'swiper/css/thumbs';
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
-import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
+import abot_bg_img from "../assets/images/png/abot_bg_img.png";
 
 const ProductDetailsCarousel = () => {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
-    <>
-      <Swiper
-        style={{
-          '--swiper-navigation-color': '#fff',
-          '--swiper-pagination-color': '#fff',
-        }}
-        spaceBetween={10}
-        navigation={true}
-        thumbs={{ swiper: thumbsSwiper }}
-        modules={[FreeMode, Navigation, Thumbs]}
-        className="mySwiper2"
-      >
-        <SwiperSlide>
-          {/* <img src="https://swiperjs.com/demos/images/nature-1.jpg" /> */}
-        </SwiperSlide>
-        {/* <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
-        </SwiperSlide> */}
-      </Swiper>
-      <Swiper
-        onSwiper={setThumbsSwiper}
-        spaceBetween={10}
-        slidesPerView={4}
-        freeMode={true}
-        watchSlidesProgress={true}
-        modules={[FreeMode, Navigation, Thumbs]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          {/* <img src="https://swiperjs.com/demos/images/nature-1.jpg" /> */}
-        </SwiperSlide>
-        {/* <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
-        </SwiperSlide> */}
-      </Swiper>
-    </>
+    <Swiper
+      // install Swiper modules
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={1}
+      slidesPerView={1}
+      navigation= {{
+        nextEl: ".product-detail-nav",
+        prevEl: "",
+      }}
+      // breakpoints={{
+        // 375: {
+        //   slidesPerView: 2,
+        //   spaceBetween: 1,
+        // },
+        // 640: {
+        //   slidesPerView: 2,
+        //   spaceBetween: 1,
+        // },
+        // 768: {
+        //   slidesPerView: 4,
+        //   spaceBetween: 40,
+        // },
+        // 820: {
+        //   slidesPerView: 4,
+        //   spaceBetween: 40,
+        // },
+        // 1024: {
+        //   slidesPerView: 4,
+        //   spaceBetween: 50,
+        // },
+      //   1600: {
+      //     slidesPerView: 1,
+      //     spaceBetween: 1,
+      //   },
+      // }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log("slide change")}
+    >
+      <SwiperSlide className="product-details-carousel">
+      <img className='product-details-img' src={abot_bg_img} alt="" />
+      </SwiperSlide>
+      <SwiperSlide className="product-details-carousel">
+      <img className='product-details-img' src={abot_bg_img} alt="" />
+      </SwiperSlide>
+      <SwiperSlide className="product-details-carousel">
+      <img className='product-details-img' src={abot_bg_img} alt="" />
+      </SwiperSlide>
+      <SwiperSlide className="product-details-carousel">
+      <img className='product-details-img' src={abot_bg_img} alt="" />
+      </SwiperSlide>
+      <SwiperSlide className="product-details-carousel">
+      <img className='product-details-img' src={abot_bg_img} alt="" />
+      </SwiperSlide>
+      <SwiperSlide className="product-details-carousel">
+      <img className='product-details-img' src={abot_bg_img} alt="" />
+      </SwiperSlide>
+      <SwiperSlide className="product-details-carousel">
+      <img className='product-details-img' src={abot_bg_img} alt="" />
+      </SwiperSlide>
+
+    </Swiper>
   )
 }
 
