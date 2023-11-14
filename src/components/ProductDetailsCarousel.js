@@ -11,7 +11,7 @@ import "swiper/css/scrollbar";
 
 import abot_bg_img from "../assets/images/png/abot_bg_img.png";
 
-const ProductDetailsCarousel = () => {
+const ProductDetailsCarousel = ({id}) => {
   return (
     <Swiper
       // install Swiper modules
@@ -22,48 +22,22 @@ const ProductDetailsCarousel = () => {
         nextEl: ".product-detail-nav",
         prevEl: "",
       }}
-      // breakpoints={{
-        // 375: {
-        //   slidesPerView: 2,
-        //   spaceBetween: 1,
-        // },
-        // 640: {
-        //   slidesPerView: 2,
-        //   spaceBetween: 1,
-        // },
-        // 768: {
-        //   slidesPerView: 4,
-        //   spaceBetween: 40,
-        // },
-        // 820: {
-        //   slidesPerView: 4,
-        //   spaceBetween: 40,
-        // },
-        // 1024: {
-        //   slidesPerView: 4,
-        //   spaceBetween: 50,
-        // },
-      //   1600: {
-      //     slidesPerView: 1,
-      //     spaceBetween: 1,
-      //   },
-      // }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
     >
-      <SwiperSlide className="product-details-carousel">
+      <SwiperSlide className="product-details-carousel" id='1'>
+      <img className='product-details-img' src={abot_bg_img} alt="" id='1'/>
+      </SwiperSlide>
+      <SwiperSlide className="product-details-carousel" id='2'>
       <img className='product-details-img' src={abot_bg_img} alt="" />
       </SwiperSlide>
-      <SwiperSlide className="product-details-carousel">
+      <SwiperSlide className="product-details-carousel" id='3'>
       <img className='product-details-img' src={abot_bg_img} alt="" />
       </SwiperSlide>
-      <SwiperSlide className="product-details-carousel">
+      <SwiperSlide className="product-details-carousel" id='4'>
       <img className='product-details-img' src={abot_bg_img} alt="" />
       </SwiperSlide>
-      <SwiperSlide className="product-details-carousel">
-      <img className='product-details-img' src={abot_bg_img} alt="" />
-      </SwiperSlide>
-      <SwiperSlide className="product-details-carousel">
+      <SwiperSlide className="product-details-carousel" id='5'>
       <img className='product-details-img' src={abot_bg_img} alt="" />
       </SwiperSlide>
       <SwiperSlide className="product-details-carousel">

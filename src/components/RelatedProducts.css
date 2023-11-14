@@ -19,9 +19,10 @@
     justify-content: center;
     gap: 15px;
   }
-  .related-products-carousel-section{
+  .related-products-carousel{
       margin-top: 60px;
-      height: 350px;
+      height: 400px;
+      width: 100%;
   }
   @media only screen and (max-width: 600px) {
     .related-products-button {

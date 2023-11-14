@@ -25,9 +25,9 @@
     font-size: 14px;
     line-height: 21px;
     letter-spacing: 25;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
-    color: #000;
+    color: var(--black);
     cursor: pointer;
 }
 .nav-items-content:hover, .set-active{
@@ -270,9 +270,9 @@
         font-size: 14px;
         line-height: 21px;
         letter-spacing: 25;
-        font-weight: 500;
+        font-weight: 600;
         text-decoration: none;
-        color: #000;
+        color: var(--black);
         cursor: pointer;
     }
     .mob-nav-items-content:hover, .set-active{

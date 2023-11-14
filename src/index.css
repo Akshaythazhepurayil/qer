@@ -3,12 +3,15 @@
 @tailwind utilities;
 
 :root{
-  --lightNavy:#243584;
+  --lightNavy:#1c2c72;
+  --deepSapphere:#172358;
   --black:#000;
   --white: #fff;
   --porcelain:#f2f2f2;
   --mercury:#e8e8e8;
+  --nobel: #b3b3b3;
   --lavaRed:#e82025;
+  --chiliPepper:#c01013;
 }
 
 *{

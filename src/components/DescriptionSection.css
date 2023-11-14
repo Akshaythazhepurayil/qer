@@ -54,14 +54,13 @@
     padding: 3px;
     border-radius: 5px;
   }
+  .select-content p{
+    font-size: 14px;
+    line-height: 39px;
+    font-weight: 400;
+    color: var(--black);
+  }
   .check-active, .select-content-img:hover{
     background-color: var(--lavaRed);
-    
   }
-  /* .check-active{
-    width: 18px;
-    background-color: var(--lavaRed);
-    padding: 3px;
-    border-radius: 5px;
-  } */
   

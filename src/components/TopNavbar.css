@@ -29,6 +29,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 5px;
+    cursor: pointer;
 }
 .language-field p{
     color: white;
@@ -43,9 +44,11 @@
     border-right: 1px solid #505d9d;
     border-left: 1px solid #505d9d;
     padding: 0 8px;
+    cursor: pointer;
 }
 .watsap-icon{
     width: 30px;
+    cursor: pointer;
 }
 @media only screen and (max-width: 1024px){
     .top-nav-container{

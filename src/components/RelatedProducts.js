@@ -14,7 +14,7 @@ const RelatedProducts = () => {
           <img className="related-products-next" src={right_button} alt="" />
         </div>
       </div>
-      <div className="related-products-carousel-section">
+      <div className="related-products-carousel">
         <RelatedProductsCarousel />
       </div>
     </div>

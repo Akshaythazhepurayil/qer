@@ -1,13 +1,12 @@
 .related-section-container {
   margin-top: 50px;
-  
 }
 .related-section-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.related-section-head {
+.related-section-head h2{
   color: var(--lightNavy);
   font-size: 36.13px;
   line-height: 45px;
@@ -20,8 +19,9 @@
   gap: 15px;
 }
 .related-carousel-section{
-    margin-top: 60px;
-    height: 350px;
+  margin-top: 60px;
+  height: 400px;
+  width: 100%;
 }
 @media only screen and (max-width: 600px) {
   .related-button {
