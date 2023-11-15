@@ -21,7 +21,9 @@ const ContactUs = () => {
       />
       <ContactHeader />
       <ContactformSection /> 
+      <div className="contactus-footer">
       <Footer />
+      </div>
     </div>
   );
 };

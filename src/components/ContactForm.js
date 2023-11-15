@@ -28,7 +28,7 @@ const ContactForm = () => {
           <input type="text" />
         </div>
         <div className="comments-section">
-          <label htmlFor="">Company</label>
+          <label htmlFor="">Do you have any questions or comments?</label>
           <input type="text" />
         </div>
         <a className="submit-btn" href="/">SUBMIT<span>
