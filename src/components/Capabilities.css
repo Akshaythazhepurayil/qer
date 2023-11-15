@@ -46,7 +46,7 @@
   line-height: 24px;
   font-weight: 400;
 }
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .capabilities-container {
     background-image: url("../assets/images/jpg/capabilities_tab_bg.jpg");
     background-color: #243584;
@@ -64,7 +64,7 @@
     padding: 50px;
   }
 }
-@media only screen and (max-width: 820px) {
+@media (max-width: 820px) {
   .capabilities-container {
     background-image: url("../assets/images/jpg/capabilities_tab_bg.jpg");
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@
     font-size: 60px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .capabilities-container {
     background-image: url("../assets/images/jpg/capabilities_tab_bg.jpg");
     background-repeat: no-repeat;

@@ -4,7 +4,19 @@
     justify-content: center;
     gap: 15px;
   }
-  @media only screen and (max-width: 600px) {
+  .prev-btn{
+    transform: scale(0.9);
+  }
+  .prev-btn:hover{
+    transform: scale(1);
+  }
+  .next-btn{
+    transform: scale(0.9);
+  }
+  .next-btn:hover{
+    transform: scale(1);
+  }
+  @media (max-width: 600px) {
     .product-rabge-button {
       gap: 10px;
       margin-top: 60px;

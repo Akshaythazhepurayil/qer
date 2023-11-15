@@ -15,9 +15,7 @@ const Footer = () => {
           <div className="find">
             <input type="text" placeholder="Enter your email address" />
             <a href="/">
-              <span>
-                <img src={rightArrow} alt="" />
-              </span>
+              <img src={rightArrow} alt="" />
             </a>
           </div>
         </div>
@@ -80,11 +78,13 @@ const Footer = () => {
             <span>
               <img src={youtube_logo} alt="" />
             </span>
-          </a><a href="/">
+          </a>
+          <a href="/">
             <span>
               <img src={linkedin_logo} alt="" />
             </span>
-          </a><a href="/">
+          </a>
+          <a href="/">
             <span>
               <img src={instagram_logo} alt="" />
             </span>

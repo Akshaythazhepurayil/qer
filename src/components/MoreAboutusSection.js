@@ -8,8 +8,8 @@ const MoreAboutusSection = () => {
     <div className="more-about-container">
       <div className="more-about-content">
         <h3>
-          Provide highest quality equipment<br></br> and solutions to our customers at
-          lowest cost<br></br> and deploying the best people to build a better future.
+          Provide highest quality equipment and solutions to our customers at
+          lowest cost and deploying the best people to build a better future.
         </h3>
         <div className="more-about-img">
             <img className="" src={more_about_img} alt=""/>

@@ -5,6 +5,7 @@ import userIcon from "../assets/images/png/userIcon.png";
 import menu from "../assets/images/png/menu_icon.png";
 import close from "../assets/images/png/close_icon.png";
 import "./Navbar.css";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = ({
   navTextOne,
@@ -17,9 +18,16 @@ const Navbar = ({
   pathContact,
   navTextFive,
 }) => {
+  const navigate = useNavigate()
   const [show, setShow] = useState(false);
-  const showMenue = () => setShow(!show)
-  
+  const [activeNav, setActiveNav] = useState("text-one");
+  const showMenue = () => setShow(!show);
+
+  const handleClick = (sectionId) => {
+    setActiveNav(sectionId);
+    navigate({path})
+  };
+
   return (
     <>
       <div className="nav-container">
@@ -28,22 +36,50 @@ const Navbar = ({
         </a>
         <ul className="nav-items">
           <li>
-            <a className="set-active nav-items-content" href={path}>
+            <a
+              className={`nav-items-content ${
+                activeNav === "text-one" ? "set-active" : ""
+              }`}
+              onClick={() => handleClick("text-one")}
+              id="text-one"
+              href={path}
+            >
               {navTextOne}
             </a>
           </li>
           <li>
-            <a className="nav-items-content" href={pathProducts}>
+            <a
+              className={`nav-items-content ${
+                activeNav === "text-two" ? "set-active" : ""
+              }`}
+              onClick={() => handleClick("text-two")}
+              id="text-two"
+              href={pathProducts}
+            >
               {navTexTwo}
             </a>
           </li>
           <li>
-            <a className="nav-items-content" href={pathMedia}>
+            <a
+              className={`nav-items-content ${
+                activeNav === "text-three" ? "set-active" : ""
+              }`}
+              onClick={() => handleClick("text-three")}
+              id="text-three"
+              href={pathMedia}
+            >
               {navTexThree}
             </a>
           </li>
           <li>
-            <a className="nav-items-content" href={pathContact}>
+            <a
+              className={`nav-items-content ${
+                activeNav === "text-four" ? "set-active" : ""
+              }`}
+              onClick={() => handleClick("text-four")}
+              id="text-four"
+              href={pathContact}
+            >
               {navTextFour}
             </a>
           </li>
@@ -70,17 +106,23 @@ const Navbar = ({
       <div className="mob-nav-container">
         <div className="mob-nav-head">
           <a className="mob-logo" href="/">
-           <span> <img src={logo} alt="Logo" /></span>
+            <span>
+              <img src={logo} alt="Logo" />
+            </span>
           </a>
           <div onClick={showMenue} className="menu-icon">
-          <img src={show ? close : menu} alt="" />
+            <img src={show ? close : menu} alt="" />
           </div>
         </div>
         {show ? (
           <div className="mob-nav">
             <ul className="mob-nav-items">
               <li>
-                <a className="mob-set-active mob-nav-items-content" href={path}>
+                <a className={`mob-nav-items-content ${
+                activeNav === "text-five" ? "set-active" : ""
+              }`}
+              onClick={() => handleClick("text-five")}
+              id="text-five" href={path}>
                   {navTextOne}
                 </a>
               </li>
@@ -117,9 +159,7 @@ const Navbar = ({
               </a>
             </div>
           </div>
-        ) : (
-          null
-        )}
+        ) : null}
       </div>
     </>
   );

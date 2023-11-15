@@ -50,7 +50,7 @@ const LatestNewsCarousel = () => {
         },
       }}
     >
-      <SwiperSlide>
+      <SwiperSlide className="latest-news-carousel">
         <LatestNewsCard
           tag="NEWS"
           bg="#2364be"

@@ -31,7 +31,7 @@ const Home = () => {
       <div className="header-container">
         <Header />
       </div>
-      <div className="">
+      <div className="home-container">
         <MoreAboutusSection />
         <MoreAboutButton />
         <ProductRange />

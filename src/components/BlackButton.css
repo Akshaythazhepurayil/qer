@@ -17,7 +17,7 @@
     top: 20px;
     bottom: 0;
 }
-@media only screen and (max-width: 600px){
+@media (max-width: 600px){
     .black-button{
         background-color: #000;
         color: #ffff;

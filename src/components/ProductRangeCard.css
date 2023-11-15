@@ -41,7 +41,7 @@
     top: 16px;
     right: 18px;
 }
-@media only screen and (max-width : 600px){
+@media (max-width : 600px){
     .slide{
         background-color: #ffff !important;
         border-radius: 10px !important;

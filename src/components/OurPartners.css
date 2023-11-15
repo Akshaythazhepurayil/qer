@@ -1,123 +1,123 @@
-.partners-container{
-    background-color: #f9f9f9;
+.partners-container {
+  background-color: #f9f9f9;
 }
-.partners-head{
+.partners-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 200px;
+}
+.partners-head h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #243584;
+}
+.brand-logo-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #d8d8d8;
+  margin-top: 50px;
+}
+.partners-head a {
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.partners-head img {
+  width: 15px;
+}
+.partners-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.carousel-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 120px;
+  gap: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 30px;
+}
+.btn-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #e5e5e5;
+  padding-right: 20px;
+}
+.btn-left img {
+  width: 100%;
+}
+.btn-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-right img {
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .partners-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 200px ;
+    padding: 0px 50px;
+  }
 }
-.partners-head h2{
-    font-size: 42px;
+@media (max-width: 600px) {
+  .partners-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    padding: 0px 200px;
+  }
+  .partners-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+  .partners-head h2 {
+    font-size: 30px;
     font-weight: 700;
     line-height: 45px;
     color: #243584;
-}
-.brand-logo-cards{
+  }
+  .partners-head a {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-left: 1px solid #d8d8d8;
-    margin-top: 50px;
-}
-.partners-head a{
-    background-color: #000;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px 15px;
+    padding: 10px;
     border-radius: 30px;
-}
-.partners-head img{
-    width: 15px;
-}
-.partners-button{
+    font-size: 8px;
+  }
+  .partners-button {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-.carousel-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 120px;
+    justify-content: space-between;
+    gap: 94px;
+    margin-top: 10px;
+  }
+  .brand-logo-cards {
+    margin-top: 20px;
+  }
+  .carousel-btn {
+    height: 30px;
+    width: 90px;
     gap: 20px;
     border: 1px solid #e5e5e5;
     border-radius: 30px;
-}
-.btn-left{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: 1px solid #e5e5e5;
-    padding-right: 20px;
-}
-.btn-left img{
-    width: 100%;
-}
-.btn-right{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.btn-right img{
-    width: 100%;
-}
-@media only screen and (max-width : 1024px){
-    .partners-head{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 50px ;
-    }
-}
-@media only screen and (max-width : 600px){
-    .partners-head{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: left;
-        padding: 0px 200px ;
-    }
-    .partners-head{
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 10px 20px ;
-    }
-    .partners-head h2{
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 45px;
-        color: #243584;
-    }
-    .partners-head a{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
-        border-radius: 30px;
-        font-size: 8px;
-    }
-    .partners-button {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 94px;
-        margin-top: 10px;
-    }
-    .brand-logo-cards{
-        margin-top: 20px;
-    }
-    .carousel-btn{
-        height: 30px;
-        width: 90px;
-        gap: 20px;
-        border: 1px solid #e5e5e5;
-        border-radius: 30px;
-    }
+  }
 }
