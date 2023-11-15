@@ -20,7 +20,6 @@ import atlas_copco_logo from "../assets/images/png/atlas_copco_logo.png";
 const PartnersCarousel = () => {
   return (
     <Swiper
-      // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={1}
       slidesPerView={8}
@@ -58,8 +57,6 @@ const PartnersCarousel = () => {
           spaceBetween: 30,
         },
       }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
     >
       <SwiperSlide className="brand-logo-slide">
       <BrandLogoCard brandLogo={komatsu} />

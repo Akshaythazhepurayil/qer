@@ -14,16 +14,13 @@ import compactor from "../assets/images/png/compactor.png";
 import excavator from "../assets/images/png/excavator.png";
 import mini_truck from "../assets/images/png/mini_truck.png";
 import backhoe_loader from "../assets/images/png/backhoe_loader.png";
-// import left_button from "../assets/images/png/left_button.png";
-// import right_button from "../assets/images/png/right_button.png";
 
 import React from "react";
 import ProductRangeCard from "./ProductRangeCard";
 
-const ProductRangeCarousel = ({idPrev, idNext }) => {
+const ProductRangeCarousel = () => {
   return (
     <Swiper
-      // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={29}
       slidesPerView={6}
@@ -53,8 +50,6 @@ const ProductRangeCarousel = ({idPrev, idNext }) => {
           spaceBetween: 30,
         },
       }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
     >
       <SwiperSlide className="slide">
         <ProductRangeCard image={motor_grader} title="Motor Graders" />

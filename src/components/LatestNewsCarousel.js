@@ -49,8 +49,6 @@ const LatestNewsCarousel = () => {
           spaceBetween: 30,
         },
       }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
     >
       <SwiperSlide>
         <LatestNewsCard

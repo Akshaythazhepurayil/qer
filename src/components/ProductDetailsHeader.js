@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {  useState } from "react";
 import "./ProductDetailsHeader.css";
 import ProductType from "./ProductType";
 import rectangle from "../assets/images/png/rectangle.png";
@@ -11,6 +11,9 @@ import compactor_mini from "../assets/images/png/compactor_mini.png";
 import ProductDetailsCarousel from "./ProductDetailsCarousel";
 
 const ProductDetailsHeader = () => {
+  const [selectedDate, setSelectedDate] = useState();
+  const [selectDate, setSelectDate] = useState();
+
   const [activeSection, setActiveSection] = useState("img-two");
   const [count, setCount] = useState(0);
 
@@ -25,6 +28,22 @@ const ProductDetailsHeader = () => {
     if (count > 0) {
       setCount(count - 1);
     }
+  };
+  // for local storage
+  // const [selectedDate, setSelectedDate] = useState(() => {
+  //   Initialize with the stored date or null if not available
+  //   return localStorage.getItem('selectedDate') || null;
+  // });
+  // useEffect(() => {
+  //   Store the selected date in localStorage when it changes
+  //   localStorage.setItem('selectedDate', selectedDate);
+  // }, [selectedDate]);
+
+  const handleDateChange = (event) => {
+    setSelectDate(event.target.value);
+  };
+  const handleDateChanging = (event) => {
+    setSelectedDate(event.target.value);
   };
   return (
     <>
@@ -104,26 +123,35 @@ const ProductDetailsHeader = () => {
             <h6>Set location to see rates</h6>
             <div className="set-date">
               <div className="date">
-                <label htmlFor="">Start Date</label>
-                <input type="date" value="" placeholder="select" />
-                <span>
-                  <img src={rectangle} alt="" />
-                </span>
+                <label>Start Date</label>
+                <div className="date-picker">
+                  <input
+                    type="date"
+                    value={selectDate}
+                    onChange={handleDateChange}
+                    className="date-picker-input"
+                  />
+                  <button className="clander-icon">
+                    <img src={rectangle} alt="" />
+                  </button>
+                  <div className="selected-date">{selectDate}</div>
+                </div>
               </div>
               <div className="date">
-                <label htmlFor="">Start Date</label>
-                <input type="date" placeholder="select" />
-                <span>
-                  <img src={rectangle} alt="" />
-                </span>
+                <label>End Date</label>
+                <div className="date-picker">
+                  <input
+                    type="date"
+                    value={selectedDate}
+                    onChange={handleDateChanging}
+                    className="date-picker-input"
+                  />
+                  <button className="clander-icon">
+                    <img src={rectangle} alt="" />
+                  </button>
+                  <div className="selected-date">{selectedDate}</div>
+                </div>
               </div>
-              {/* <div className="date">
-                <label htmlFor="">Start Date</label>
-                <ReactDatePicker
-                  placeholderText="Select"
-                  customInput={<CustomInputWithIcon />}
-                />
-              </div> */}
             </div>
           </div>
           <div className="quantity-section">

@@ -6,15 +6,15 @@ const ProductsListCard = ({ image, title, path }) => {
   return (
     <div className="card-container">
       <div className="card-section">
-        <div className="card-img">
+        <a href={path} className="card-img">
           <img src={image} alt="" />
-        </div>
+        </a>
         <a href={path} className="card-next-button">
           <img src={blue_round_icon} alt="" />
         </a>
       </div>
       <div className="card-title">
-        <p>{title}</p>
+        <a href={path}>{title}</a>
       </div>
     </div>
   );

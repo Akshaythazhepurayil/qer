@@ -1,13 +1,12 @@
-.related-products-container {
+  .related-products-container {
     margin-top: 50px;
-    
   }
   .related-products-head {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .related-products-head {
+  .related-products-head h2{
     color: var(--lightNavy);
     font-size: 36.13px;
     line-height: 45px;
@@ -20,15 +19,78 @@
     gap: 15px;
   }
   .related-products-carousel{
-      margin-top: 60px;
+    margin-top: 60px;
+    height: 400px;
+    width: 100%;
+  }
+  .related-products-prev{
+    transform: scale(0.9);
+  }
+  .related-products-prev:hover{
+    transform: scale(1);
+  }
+  .related-products-next{
+    transform: scale(0.9);
+  }
+  .related-products-next:hover{
+    transform: scale(1);
+  }
+  @media (max-width: 1024px) {
+    .related-products-container {
+      margin-top: 10px;
+      padding: 20px;
+    }
+    .related-carousel-section{
+      margin-top: 30px;
       height: 400px;
       width: 100%;
-  }
-  @media only screen and (max-width: 600px) {
-    .related-products-button {
-      gap: 10px;
-      margin-top: 60px;
-      width: 30px;
     }
   }
+  @media (max-width: 820px) {
+    .related-products-container {
+      margin-top: 0px;
+      padding: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    .related-products-container {
+      margin-top: 0px;
+      padding: 20px;
+    }
+  }
+  @media (max-width: 600px) {
+    .related-products-container {
+      margin-top: 0px;
+      padding: 20px;
+    }
+    .related-products-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .related-products-head h2{
+      color: var(--lightNavy);
+      font-size: 30px;
+      line-height: 30px;
+      font-weight: 400;
+      width: 100%;
+    }
+    .related-products-button {
+      gap: 10px;
+      width: 50%;
+    }
+    .related-products-prev{
+      width: 35%;
+    }
+    .related-products-next{
+      width: 35%;
+    }
+    .related-products-carousel{
+      margin-top: 20px;
+      height: 400px;
+      width: 100%;
+    }
+  }
+  
   

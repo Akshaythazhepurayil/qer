@@ -26,12 +26,13 @@
 }
 .card-img img{
     width: 100%;
+    object-fit: none;
 }
 .card-title{
     border-radius: 10px;
     margin: 20px 40px;
 }
-.card-title p{
+.card-title a{
     font-size: 18px;
     font-weight: 500;
     line-height: 50px;

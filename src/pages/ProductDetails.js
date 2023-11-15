@@ -27,7 +27,6 @@ const ProductDetails = () => {
         <RelatedSection />
         <RelatedProducts />
       </div>
-      
       <Footer />
     </div>
   )

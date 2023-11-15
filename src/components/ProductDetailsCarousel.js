@@ -14,7 +14,6 @@ import abot_bg_img from "../assets/images/png/abot_bg_img.png";
 const ProductDetailsCarousel = ({id}) => {
   return (
     <Swiper
-      // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={1}
       slidesPerView={1}
@@ -22,8 +21,6 @@ const ProductDetailsCarousel = ({id}) => {
         nextEl: ".product-detail-nav",
         prevEl: "",
       }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
     >
       <SwiperSlide className="product-details-carousel" id='1'>
       <img className='product-details-img' src={abot_bg_img} alt="" id='1'/>
