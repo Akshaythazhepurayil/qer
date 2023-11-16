@@ -11,6 +11,8 @@ const ContactUs = () => {
     <div>
       <TopNavbar />
       <Navbar
+      homePath="/"
+      navText="HOME"
         path="/about-us"
         navTextOne="ABOUT US"
         pathProducts="/products-for-rent"

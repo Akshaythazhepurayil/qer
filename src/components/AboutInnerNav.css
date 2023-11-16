@@ -26,7 +26,7 @@
 }
 .who-we-are-text {
   margin-top: 95px;
-  margin-left: 307px;
+  margin-left: 22%;
   display: flex;
   flex-direction: column;
   gap: 35px;
@@ -46,7 +46,7 @@
   line-height: 24px;
 }
 .vision-card {
-  margin-left: 430px;
+  margin-left: 30%;
   width: 100%;
 }
 .core-value-container {
@@ -92,14 +92,14 @@
   }
   .who-we-are-text {
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 10%;
     gap: 25px;
   }
   .who-we-are-text p {
     width: 90%;
   }
   .vision-card {
-    margin-left: 300px;
+    margin-left: 32%;
   }
   .core-value-container {
     margin-top: 50px;
@@ -115,14 +115,14 @@
   }
   .who-we-are-text {
     margin-top: 40px;
-    margin-left: 70px;
+    margin-left: 10%;
     gap: 20px;
   }
   .who-we-are-text p {
     width: 95%;
   }
   .vision-card {
-    margin-left: 200px;
+    margin-left: 20%;
   }
   .core-value-items{
     gap: 30px;
@@ -136,7 +136,7 @@
   }
   .who-we-are-text {
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 10%;
     gap: 10px;
   }
   .who-we-are-text p {

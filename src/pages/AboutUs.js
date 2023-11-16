@@ -9,11 +9,13 @@ import abot_bg_img from "../assets/images/png/abot_bg_img.png";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div id="text-one">
       <TopNavbar />
       <Navbar
-        path="/"
-        navTextOne="HOME"
+      homePath="/"
+      navText="HOME"
+        path="/about-us"
+        navTextOne="ABOUT US"
         pathProducts="/products-for-rent"
         navTexTwo="PRODUCTS"
         navTexThree="MEDIA CENTERE"

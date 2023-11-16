@@ -2,18 +2,18 @@ import React from "react";
 import "./ProductRangeCard.css"
 import blue_round_icon from "../assets/images/png/blue_round_icon.png"
 
-const ProductRangeCard = ({image, title}) => {
+const ProductRangeCard = ({path, image, title}) => {
   return (
     <div className="slide-items">
-      <div className="product-img">
+      <a href={path} className="product-img">
         <img src={image} alt="" />
-      </div>
-      <div className="next-button">
+      </a>
+      <a href={path} className="next-button">
         <img src={blue_round_icon} alt="" />
-      </div>
-      <div className="vehicle-name">
+      </a>
+      <a href={path} className="vehicle-name">
         <span>{title}</span>
-      </div>
+      </a>
     </div>
   );
 };

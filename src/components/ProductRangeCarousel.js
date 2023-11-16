@@ -52,40 +52,40 @@ const ProductRangeCarousel = () => {
       }}
     >
       <SwiperSlide className="slide">
-        <ProductRangeCard image={motor_grader} title="Motor Graders" />
+        <ProductRangeCard path="/product-details" image={motor_grader} title="Motor Graders" />
       </SwiperSlide>
       <SwiperSlide className="slide">
-        <ProductRangeCard image={compactor} title="Compactors" />
+        <ProductRangeCard path="/product-details" image={compactor} title="Compactors" />
       </SwiperSlide>
       <SwiperSlide className="slide">
-        <ProductRangeCard image={excavator} title="Excavators" />
+        <ProductRangeCard path="/product-details" image={excavator} title="Excavators" />
       </SwiperSlide>
       <SwiperSlide className="slide">
-        <ProductRangeCard image={mini_truck} title="Mining Trucks" />
+        <ProductRangeCard path="/product-details" image={mini_truck} title="Mining Trucks" />
       </SwiperSlide>
       <SwiperSlide className="slide">
-        <ProductRangeCard image={backhoe_loader} title="Backhoe Loaders" />
+        <ProductRangeCard path="/product-details" image={backhoe_loader} title="Backhoe Loaders" />
       </SwiperSlide>
       <SwiperSlide className="slide">
-        <ProductRangeCard image={generator} title="Generator" />
+        <ProductRangeCard path="/product-details" image={generator} title="Generator" />
       </SwiperSlide>
       <SwiperSlide className="slide">
-        <ProductRangeCard image={motor_grader} title="Motor Graders" />
+        <ProductRangeCard path="/product-details" image={motor_grader} title="Motor Graders" />
       </SwiperSlide>
       <SwiperSlide className="slide">
-        <ProductRangeCard image={motor_grader} title="Motor Graders" />
+        <ProductRangeCard path="/product-details" image={motor_grader} title="Motor Graders" />
       </SwiperSlide>
       <SwiperSlide className="slide">
-        <ProductRangeCard image={backhoe_loader} title="Backhoe Loaders" />
+        <ProductRangeCard path="/product-details" image={backhoe_loader} title="Backhoe Loaders" />
       </SwiperSlide>
       <SwiperSlide className="slide">
-        <ProductRangeCard image={excavator} title="Excavators" />
+        <ProductRangeCard path="/product-details" image={excavator} title="Excavators" />
       </SwiperSlide>
       <SwiperSlide className="slide">
-        <ProductRangeCard image={compactor} title="Compactors" />
+        <ProductRangeCard path="/product-details" image={compactor} title="Compactors" />
       </SwiperSlide>
       <SwiperSlide className="slide">
-        <ProductRangeCard image={motor_grader} title="Motor Graders" />
+        <ProductRangeCard path="/product-details" image={motor_grader} title="Motor Graders" />
       </SwiperSlide>
     </Swiper>
   );

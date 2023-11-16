@@ -1,9 +1,11 @@
 .latest-card-container {
   position: relative;
   width: 100%;
+  transform: scale(.98);
+  transition: 1 ease;
 }
 .latest-card-container:hover{
-  width: 105%;
+  transform: scale(1);
 }
 .card-tag {
   position: absolute;

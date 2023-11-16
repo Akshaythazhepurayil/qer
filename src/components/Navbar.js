@@ -7,6 +7,8 @@ import close from "../assets/images/png/close_icon.png";
 import "./Navbar.css";
 
 const Navbar = ({
+  navText,
+  homePath,
   navTextOne,
   navTexTwo,
   navTexThree,
@@ -18,7 +20,7 @@ const Navbar = ({
   navTextFive,
 }) => {
   const [show, setShow] = useState(false);
-  const [activeNav, setActiveNav] = useState("text-one");
+  const [activeNav, setActiveNav] = useState("text");
   const showMenue = () => setShow(!show);
 
   const handleClick = (sectionId) => {
@@ -32,6 +34,18 @@ const Navbar = ({
           <img src={logo} alt="Logo" />
         </a>
         <ul className="nav-items">
+        <li>
+            <a
+              className={`nav-items-content ${
+                activeNav === "text" ? "set-active" : ""
+              }`}
+              onClick={() => handleClick("text")}
+              sectionId="text"
+              href={homePath}
+            >
+              {navText}
+            </a>
+          </li>
           <li>
             <a
               className={`nav-items-content ${

@@ -15,10 +15,12 @@ const ProductsForRent = () => {
     <div>
       <TopNavbar />
       <Navbar
-        path="/"
-        navTextOne="HOME"
-        pathProducts="/about-us"
-        navTexTwo="ABOUT US"
+      homePath="/"
+      navText="HOME"
+        path="/about-us"
+        navTextOne="ABOUT US"
+        pathProducts="/products-for-rent"
+        navTexTwo="PRODUCTS"
         navTexThree="MEDIA CENTERE"
         pathContact="/contact-us"
         navTextFour="CONTACT US"
