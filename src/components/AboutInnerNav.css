@@ -1,8 +1,10 @@
 .about-nav-container {
-  margin-top: 135px;
-  padding: 0px 200px;
+  padding-top: 135px;
+  max-width: 1500px;
+  margin: auto;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .nav-list {
   display: flex;
@@ -21,7 +23,6 @@
 .active {
   color: var(--lavaRed);
   border-bottom: 1px solid var(--lavaRed);
-  padding-bottom: 17px;
 }
 .who-we-are-text {
   margin-top: 95px;
@@ -38,7 +39,7 @@
   color: #243584;
 }
 .who-we-are-text p {
-  width: 1049px;
+  width: 90%;
   color: var(--black);
   font-size: 16px;
   font-weight: 400;
@@ -46,6 +47,7 @@
 }
 .vision-card {
   margin-left: 430px;
+  width: 100%;
 }
 .core-value-container {
   margin-top: 118px;
@@ -82,7 +84,7 @@
 
 @media (max-width: 1024px) {
   .about-nav-container {
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 0px 20px;
   }
   .nav-list {
@@ -94,7 +96,7 @@
     gap: 25px;
   }
   .who-we-are-text p {
-    width: 850px;
+    width: 90%;
   }
   .vision-card {
     margin-left: 300px;
@@ -105,7 +107,7 @@
 }
 @media (max-width: 820px) {
   .about-nav-container {
-    margin-top: 80px;
+    margin-top: 40px;
     padding: 0px 10px;
   }
   .nav-list {
@@ -117,7 +119,7 @@
     gap: 20px;
   }
   .who-we-are-text p {
-    width: 680px;
+    width: 95%;
   }
   .vision-card {
     margin-left: 200px;
@@ -138,7 +140,7 @@
     gap: 10px;
   }
   .who-we-are-text p {
-    width: 685px;
+    width: 100%;
   }
   .nav-list-item {
     font-size: 13px;
@@ -155,23 +157,29 @@
     padding-right: 12px;
   }
   .nav-list {
-    display: none;
+    width: 100%;
+    gap: 5px;
+  }
+  .nav-list-item{
+    font-size: 6px;
+    font-weight: 700;
   }
   .who-we-are-text {
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 1px;
-    gap: 20px;
+    gap: 10px;
+  }
+  .who-we-are-text h1{
+    font-size: 25px;
   }
   .who-we-are-text p {
-    width: 350px;
-    word-break: break-all;
-  }
-  .nav-list-item {
+    width: 100%;
     font-size: 13px;
-    font-weight: 500;
+    line-height: 20px;
   }
   .vision-card {
     margin-left: 10px;
+    width: 90%;
   }
   .core-value-container {
     margin-top: 30px;
@@ -182,7 +190,7 @@
     margin-top: 20px;
   }
   .core-value-container h3 {
-    font-size: 60px;
+    font-size: 45px;
     line-height: 45px;
     font-weight: 700;
   }

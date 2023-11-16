@@ -28,23 +28,22 @@ const Footer = () => {
             <p>Power Systems</p>
           </div>
         </div>
-        <div className="footer-section-one">
-          <h4>Products</h4>
-          <div className="content">
-            <p>Access Platforms Comp</p>
-            <p> Articulated Trucks </p>
-            <p>Backhoe Loaders</p>
-            <p>Cranes</p>
-            <p>Compactors</p>
-            <p>Diesel Generators</p>
-            <p>Dozers</p>
-            <p>Excavators</p>
-            <p>Forks lifters/Loaders</p>
+        <div className="footer-section-product">
+          <div className="section-product">
+            <h4>Products</h4>
+            <div className="content">
+              <p>Access Platforms Comp</p>
+              <p> Articulated Trucks </p>
+              <p>Backhoe Loaders</p>
+              <p>Cranes</p>
+              <p>Compactors</p>
+              <p>Diesel Generators</p>
+              <p>Dozers</p>
+              <p>Excavators</p>
+              <p>Forks lifters/Loaders</p>
+            </div>
           </div>
-        </div>
-        <div className="footer-section-one">
-          {/* <h5>Products</h5> */}
-          <div className="content_section">
+          <div className="content-section">
             <p>Low/High Pressure Air </p>
             <p>Compressors</p>
             <p>Mining Trucks</p>

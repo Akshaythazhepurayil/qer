@@ -7,16 +7,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .capabilities {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 1118px;
+  width: 60%;
   gap: 84px;
 }
 .capabilities-left {
-  width: 473px;
+  width: 38%;
 }
 .capabilities-left h2 {
   color: #fff;
@@ -63,6 +64,9 @@
     width: 100%;
     padding: 50px;
   }
+  .capabilities-left {
+    width: 45%;
+  }
 }
 @media (max-width: 820px) {
   .capabilities-container {
@@ -82,6 +86,9 @@
   .capabilities-left h2 {
     color: #fff;
     font-size: 60px;
+  }
+  .capabilities-left {
+    width: 45%;
   }
 }
 @media (max-width: 600px) {
