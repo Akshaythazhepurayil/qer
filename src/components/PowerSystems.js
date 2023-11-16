@@ -1,26 +1,33 @@
-import React from 'react'
+import React from "react";
 import BlackButton from "./BlackButton";
-import "./PowerSystems.css"
-import ProductsListCard from './ProductsListCard';
+import "./PowerSystems.css";
+import ProductsListCard from "./ProductsListCard";
 import diesel_generators from "../assets/images/png/diesel_generators.png";
 import synchronization_panels from "../assets/images/png/synchronization_panels.png";
 
-
-const PowerSystems = ({headText}) => {
+const PowerSystems = ({ headText }) => {
   return (
     <div className="power-systems-container">
-    <div className="power-systems">
-      <h4>{headText}</h4>
-      <div className="power-systems-button">
-      <BlackButton path="/products-for-rent" title="View All Products"/>
-      </div>
-      <div className="power-systems-list">
-      <ProductsListCard image={diesel_generators} title="Diesel Generators" />
-      <ProductsListCard image={synchronization_panels} title="Synchronization Panels" />
+      <div className="power-systems">
+        <h4>{headText}</h4>
+        <div className="power-systems-button">
+          <BlackButton path="/products-for-rent" title="View All Products" />
+        </div>
+        <div className="power-systems-list">
+          <ProductsListCard
+            image={diesel_generators}
+            title="Diesel Generators"
+            path="/product-details"
+          />
+          <ProductsListCard
+            image={synchronization_panels}
+            title="Synchronization Panels"
+            path="/product-details"
+          />
+        </div>
       </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 
-export default PowerSystems
+export default PowerSystems;

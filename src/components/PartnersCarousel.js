@@ -27,10 +27,6 @@ const PartnersCarousel = () => {
         nextEl: ".btn-right",
         prevEl: ".btn-left",
       }}
-      autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
-      }}
       breakpoints={{
         375: {
           slidesPerView: 2,

@@ -52,6 +52,7 @@
 @media (max-width : 768px){
     .latest-news-container{
         padding: 20px 50px;
+        width: 100%;
     }
 }
 @media (max-width : 640px){
@@ -61,6 +62,7 @@
     }
     .latest-news-cards{
         margin-top: 20px;
+        width: 100%;
     }
     .latest-news-head h2{
         font-size: 30px;

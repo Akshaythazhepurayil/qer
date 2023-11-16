@@ -1,3 +1,11 @@
 .latest-news-carousel{
     border-radius: 15px !important;
 }
+.latest-slide{
+    width: 100% !important;
+}
+@media (max-width: 375px){
+    .latest-news-carousel{
+        width: 100% !important;
+    }
+}

@@ -5,7 +5,6 @@ import userIcon from "../assets/images/png/userIcon.png";
 import menu from "../assets/images/png/menu_icon.png";
 import close from "../assets/images/png/close_icon.png";
 import "./Navbar.css";
-import { useNavigate } from "react-router-dom";
 
 const Navbar = ({
   navTextOne,
@@ -18,14 +17,12 @@ const Navbar = ({
   pathContact,
   navTextFive,
 }) => {
-  const navigate = useNavigate()
   const [show, setShow] = useState(false);
   const [activeNav, setActiveNav] = useState("text-one");
   const showMenue = () => setShow(!show);
 
   const handleClick = (sectionId) => {
     setActiveNav(sectionId);
-    navigate({path})
   };
 
   return (
@@ -41,7 +38,7 @@ const Navbar = ({
                 activeNav === "text-one" ? "set-active" : ""
               }`}
               onClick={() => handleClick("text-one")}
-              id="text-one"
+              sectionId="text-one"
               href={path}
             >
               {navTextOne}
@@ -53,7 +50,7 @@ const Navbar = ({
                 activeNav === "text-two" ? "set-active" : ""
               }`}
               onClick={() => handleClick("text-two")}
-              id="text-two"
+              sectionId="text-two"
               href={pathProducts}
             >
               {navTexTwo}
@@ -65,7 +62,7 @@ const Navbar = ({
                 activeNav === "text-three" ? "set-active" : ""
               }`}
               onClick={() => handleClick("text-three")}
-              id="text-three"
+              sectionId="text-three"
               href={pathMedia}
             >
               {navTexThree}
@@ -77,7 +74,7 @@ const Navbar = ({
                 activeNav === "text-four" ? "set-active" : ""
               }`}
               onClick={() => handleClick("text-four")}
-              id="text-four"
+              sectionId="text-four"
               href={pathContact}
             >
               {navTextFour}

@@ -3,14 +3,14 @@
   flex-direction: column;
   position: relative;
   position: relative;
-  margin-top: -70px;
+  width: 100%;
 }
 .power-systems {
   background-color: #243584;
   padding-left: 90px;
   padding-right: 90px;
   padding-top: 54px;
-  width: 700px;
+  width: 35%;
   height: 301px;
   margin-bottom: 100px;
 }
@@ -21,7 +21,7 @@
   line-height: 50px;
 }
 .power-systems-list {
-  width: 40%;
+  width: 100%;
   height: 250px;
   position: absolute;
   top: 170px;
@@ -36,17 +36,14 @@
   top: 50px;
 }
 @media (max-width: 1024px) {
-  .power-systems-container {
-    margin-top: 0px;
-  }
   .power-systems-list {
-    width: 87%;
-    top: 170px;
-    left: 135px;
+    width: 100%;
+    top: 130px;
+    left: 30px;
   }
   .power-systems {
-    padding: 50px;
-    width: 700px;
+    padding: 54px 30px;
+    width: 50%;
     height: 301px;
   }
   .power-systems-button {
@@ -55,72 +52,61 @@
   }
 }
 @media (max-width: 820px) {
-  .power-systems-container {
-    margin-top: 0px;
-  }
   .power-systems-list {
-    width: 87%;
-    top: 170px;
-    left: 50px;
-  }
-  .power-systems {
-    padding: 50px;
-    width: 700px;
-    height: 301px;
-  }
-  .power-systems-button {
-    right: 50px;
-    top: 50px;
-  }
-}
-@media (max-width: 768px) {
-  .power-systems-container {
-    margin-top: 0px;
-  }
-  .power-systems-list {
-    width: 91%;
-    top: 170px;
+    width: 100%;
+    top: 130px;
     left: 30px;
   }
   .power-systems {
-    padding: 50px;
-    width: 700px;
+    padding: 54px 30px;
+    width: 50%;
     height: 301px;
   }
   .power-systems-button {
     right: 50px;
     top: 50px;
+  }
+  .power-systems h4 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 768px) {
+  .power-systems-list {
+    width: 100%;
+    top: 130px;
+    left: 30px;
+  }
+  .power-systems {
+    padding: 54px 30px;
+    width: 55%;
+    height: 200px;
   }
 }
 @media (max-width: 600px) {
   .power-systems-container {
-    margin-top: 0px;
+    margin-top: 30px;
+  }
+  .power-systems {
+    padding: 20px;
   }
   .power-systems-list {
-    width: 91%;
-    top: 170px;
-    left: 20px;
-    margin-top: 50px;
-  }
-  .power-systems {
-    padding: 50px;
-    width: 379px;
-    height: 301px;
-  }
-  .power-systems-button {
-    right: 50px;
-    top: 50px;
-  }
-  .power-systems {
-    width: 379px;
-    height: 301px;
-    padding: 50px;
+    width: 100%;
+    top: 190px;
+    left: 5%;
   }
   .power-systems-button {
     right: 60px;
-    top: 132px;
+    top: 120px;
+  }
+  .power-systems {
+    width: 100%;
+    height: 301px;
+    padding: 50px;
   }
   .power-systems h4 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50px;
     text-align: center;
   }
 }
