@@ -133,9 +133,6 @@
     align-items: center;
     gap: 30px;
   }
-  .header-carousel {
-    display: none;
-  }
   .slider-one h1 {
     color: #fc4236;
     font-weight: 700;
@@ -153,11 +150,7 @@
   .next-button-carousel {
     width: 35px;
     min-height: 35px;
-    bottom: 100px;
+    bottom: 50px;
     right: 30px;
-  }
-  .header-carousel {
-    height: 500px !important;
-    margin-bottom: 0px !important;
   }
 }

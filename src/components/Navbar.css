@@ -227,11 +227,12 @@
         align-items: flex-start;
         position: relative;
         height: 100%;
+        width: 100%;
     }
     .mob-nav-items{
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 0px;
     }
     .mob-signup-section{
         display: flex;
@@ -239,14 +240,19 @@
         gap: 10px;
     }
     .mob-search-field{
-        width: 200px;
+        width: 100%;
         height: 35px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
         border: 1px solid #d9d9d9;
         height: 35px;
         padding: 5px 14px;
+        gap: 10px;
+        margin-top: 5px;
+    }
+    .search-icon{
+        width: 20px;
     }
     .mob-logo{
         width: 120px;
@@ -258,7 +264,7 @@
         color: white;
         font-size: 13px;
         display: flex;
-        align-items: left;
+        align-items: center;
         justify-content: center;
         gap: 10px;
         padding:  5px 18px;

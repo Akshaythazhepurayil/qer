@@ -147,18 +147,25 @@
     width: 50%;
   }
   .footer-section-one {
-    width: 90%;
+    width: 107%;
+  }
+  .footer-section-one h5 {
+    padding-bottom: 0px;
+    line-height: 0px;
+  }
+  .find{
+    margin-top: 25px;
   }
   .footer-section-one h4 {
     padding-bottom: 0px;
-    margin-top: 15px;
+    margin-top: 10px;
   }
   .footer-bottom-section p {
     font-size: 12px;
     padding-bottom: 10px;
   }
   .content{
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 12px;
     line-height: 23px;
   }
@@ -168,16 +175,17 @@
     line-height: 23px;
   }
   .quick-links{
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 12px;
-    line-height: 23px;
+    line-height: 20px;
   }
   .footer-section-product{
     display: flex;
     justify-content: left;
     align-items: left;
     gap: 0px;
-    width: 90%;
+    width: 107%;
+    margin-top: 15px;
   }
   .footer-section-product h4{
     font-weight: 600;
@@ -185,5 +193,8 @@
     line-height: 40px;
     color: white;
     padding-bottom: 0px;
+  }
+  .footer-bottom-section {
+    margin-top: 15px;
   }
 }

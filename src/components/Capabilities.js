@@ -1,53 +1,53 @@
-import React from 'react'
+import React from "react";
 import triangle_icon from "../assets/images/png/triangle_icon.png";
-import "./Capabilities.css"
+import "./Capabilities.css";
 
 const Capabilities = () => {
   return (
     <div className="capabilities-container">
-        <div className="capabilities">
-          <div className="capabilities-left">
-            <h2>Capabilities</h2>
-            <p>
-              Fusce sodales nec lacus vitae consequat. Vivamus sed tincidunt
-              tellus, ac venenatis ex.
-            </p>
-          </div>
-          <div className="capabilities-right">
-            <div className="capabilities-right-content">
-              <span>
-                <img src={triangle_icon} alt="" />
-              </span>
-              <p>Provide proper safety training to customers</p>
-            </div>
-            <div className="capabilities-right-content">
-              <span>
-                <img src={triangle_icon} alt="" />
-              </span>
-              <p>Quality checking at every stage</p>
-            </div>
-            <div className="capabilities-right-content">
-              <span>
-                <img src={triangle_icon} alt="" />
-              </span>
-              <p>Immediate action upon customer complaints</p>
-            </div>
-            <div className="capabilities-right-content">
-              <span>
-                <img src={triangle_icon} alt="" />
-              </span>
-              <p>To cover all health, safety and environmental issues</p>
-            </div>
-            <div className="capabilities-right-content">
-              <span>
-                <img src={triangle_icon} alt="" />
-              </span>
-              <p>Adoption of up to date know how for enhancement of performance</p>
-            </div>
-          </div>
+      <div className="capabilities">
+        <div className="capabilities-left">
+          <h2>Capabilities</h2>
+          <p>
+            Fusce sodales nec lacus vitae consequat. Vivamus sed tincidunt
+            tellus, ac venenatis ex.
+          </p>
         </div>
+        <ul className="capabilities-right">
+          <li className="capabilities-right-content">
+            <span>
+              <img src={triangle_icon} alt="" />
+            </span>
+            Provide proper safety training to customers
+          </li>
+          <li className="capabilities-right-content">
+            <span>
+              <img src={triangle_icon} alt="" />
+            </span>
+            Quality checking at every stage
+          </li>
+          <li className="capabilities-right-content">
+            <span>
+              <img src={triangle_icon} alt="" />
+            </span>
+            Immediate action upon customer complaints
+          </li>
+          <li className="capabilities-right-content">
+            <span>
+              <img src={triangle_icon} alt="" />
+            </span>
+            To cover all health, safety and environmental issues
+          </li>
+          <li className="capabilities-right-content">
+            <span>
+              <img src={triangle_icon} alt="" />
+            </span>
+            Adoption of up to date know how for enhancement of performance
+          </li>
+        </ul>
       </div>
-  )
-}
+    </div>
+  );
+};
 
-export default Capabilities
+export default Capabilities;

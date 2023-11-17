@@ -158,11 +158,12 @@
   }
   .nav-list {
     width: 100%;
-    gap: 5px;
+    gap: 4px;
   }
   .nav-list-item{
     font-size: 6px;
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 0.1px;
   }
   .who-we-are-text {
     margin-top: 10px;

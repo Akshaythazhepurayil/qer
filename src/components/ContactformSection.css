@@ -173,7 +173,19 @@
   .ksa-office-address {
     margin-top: 10px;
   }
+  .head-section {
+    margin-top: 25px;
+  }
   .head-section h1 {
-    line-height: 35px;
+    color: #243584;
+    font-size: 28px;
+  }
+  .address-section {
+    margin-top: 0px;
+    font-size: 23px;
+    padding: 10px 20px;
+  }
+  .du-office-address {
+    margin-top: 15px;
   }
 }

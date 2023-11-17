@@ -128,6 +128,18 @@ const Navbar = ({
         {show ? (
           <div className="mob-nav">
             <ul className="mob-nav-items">
+            <li>
+            <a
+              className={`mob-nav-items-content ${
+                activeNav === "text" ? "set-active" : ""
+              }`}
+              onClick={() => handleClick("text")}
+              sectionId="text"
+              href={homePath}
+            >
+              {navText}
+            </a>
+          </li>
               <li>
                 <a className={`mob-nav-items-content ${
                 activeNav === "text-five" ? "set-active" : ""
@@ -155,7 +167,7 @@ const Navbar = ({
             </ul>
             <div className="mob-signup-section">
               <div className="mob-search-field">
-                <button className="">
+                <button className="search-icon">
                   <span>
                     <img src={searchIcon} alt="" />
                   </span>
